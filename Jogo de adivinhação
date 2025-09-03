@@ -1,0 +1,11 @@
+import random
+computador = random.randint(1, 10)
+while 1:
+    jogador = int(input("escolha um numero de 1 a 10"))
+    if (jogador > computador):
+        print ("grande demais, escolha outro")
+    if (jogador < computador):
+        print ("pequeno demais, escolha outro")
+    if (jogador == computador):
+        print ("voce ganhou!")
+        break
